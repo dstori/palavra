@@ -4,7 +4,7 @@ Palavra is a Node.js module that generates one or more random portuguese words.
 
 ## Installation
 
-	$ npm [-g] palavra
+	$ npm install [-g] palavra
 
 ## Usage
 
