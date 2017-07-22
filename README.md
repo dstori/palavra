@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/dstori/palavra.svg?branch=master)](https://travis-ci.org/dstori/palavra)
+
 # palavra
 
 Palavra is a Node.js module that generates one or more random portuguese words.
