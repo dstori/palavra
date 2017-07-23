@@ -1,3 +1,10 @@
 language: node_js
 node_js:
-  - "6"
+- '6'
+deploy:
+  provider: npm
+  email: dstori@gmail.com
+  api_key:
+    secure: lCeugPuz2JIy3Wxgs+ri5RK5kUtjkqYLdAtDiRwFxLK0oghHI1yxNZNAcgWa0V8shpKCKH8rQeKZkek9BomINN4OoNkBWi/lbN1sgZ9oBVXCcqENQw4lJuZTp3nSk0pURacASeorEx5fdMX/GhFxX1ccpIIuSPqeapwb2LaGhXl+Ja5YZbZs3wjvb6YmHZ9yw7yRzBusz6xEjCxrmu+okE5w1JBmKg++mF6rldK8CGqPOWf31RG6dhPMkS+m6MGzDHr8zcf8nKp74uZlcCWiJ2iADwAt5Ev66f1+DZTfPfoED/OGx+Fg7BHJm1S+JkD3kdDqa1yb3Dud6tkbjOlmYWa804yN+tkDnq6hkHaizxO+dvjHhTafldgTwBWs1bVvu8WUzzJr4x2vmVbUzOnvV1pIr+eSatIsGm7ZCJlli8BMAeOobGeNHgjxXKz7x21rwO3/WlWoYK6WZNqil9wZfqUOa34rVEWbjKyYZTXyNNcXhqOmkbhK96j2zSeLtnV9TweJuBdQaaGHy0yRk+YEh3PgIPHHCBqD48XDA+Q13IoCR0qVqc7zuGhriKaXKI09P42S5TmPynhCRFAo2715kON3VmyODoVHr+6hoPVPzos3LBd5txh1u3EPS0Snb61Fgvaxxb6StPJ2oTpb8xQXJ5MBn2PBzrt3VBS2PCT+qYM=
+  on:
+    tags: true
