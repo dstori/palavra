@@ -1,4 +1,5 @@
-JavaScript: true
-
+languages:
+  JavaScript: true
+  
 exclude_paths:
 - "lib/*.spec.js"
